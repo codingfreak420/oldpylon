@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+ <style media="screen">
+      *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #fcfcfc;
+    font-family: sans-serif;
+}
+footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--tan);
+    height: auto;
+    width: 100vw;
+    top: 10;
+    padding-top: 40px;
+    color: var(--grey);
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: var(--dark);
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: var(--dark);
+    border: 1.1px solid var(--dark);
+    padding: 5px;
+
+    border-radius: 50%;
+
+}
+.socials a i{
+    font-size: 1.1rem;
+    width: 20px;
+
+
+    transition: color .4s ease;
+
+}
+.socials a:hover i{
+    color: white;
+}
+
+.footer-bottom{
+    background: var(--dark);
+    width: 100vw;
+    padding: 20px;
+padding-bottom: 40px;
+    text-align: center;
+}
+.footer-bottom p{
+float: left;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom p a{
+  color:var(--tan);
+  font-size: 16px;
+  text-decoration: none;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+.footer-menu{
+  float: right;
+
+}
+.footer-menu ul{
+  display: flex;
+}
+.footer-menu ul li{
+padding-right: 10px;
+display: block;
+}
+.footer-menu ul li a{
+  color: var(--tan);
+  text-decoration: none;
+}
+.footer-menu ul li a:hover{
+  color: white;
+}
+
+@media (max-width:500px) {
+.footer-menu ul{
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.footer-bottom{height: 120px;}
+}
+    </style>
+
+
+
+    <!-- App title -->
+    <title>Responsive Pure CSS Menu</title>
+
+    <!-- Link css file -->
+    <link rel="stylesheet" href="main.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,200,1,-25">
+
+<script src='https://kit.fontawesome.com.bda7966dd.js' crossorigin='anonymous'></script>
+
+</head>
+<body>
+    
+    <!-- Navigation bar -->
+    <header class="header">
+        <!-- Logo -->
+        <a href="#" class="logo"><img src='https://raw.githubusercontent.com/codingfreak420/sidebar/main/images/logo.jpg'></a>
+
+        <!-- Hamburger icon -->
+        <input class="side-menu" type="checkbox" id="side-menu"/>
+        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+
+        <!-- Menu -->
+        <nav class="nav">
+            <ul class="menu">
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Blog</a> </li>
+                <li><a href="#">About</a></li>
+                <li class="subnav">
+                    <p class="subnavbtn">Carrers <i class="fa fa-caret-down"></i></p>
+                    <div class="subnav-content">
+                        <a href="#">Benefits</a>
+                        <a href="join-the-team.html">Join The Team</a>
+                     
+                    </div>
+                </li>
+                <li class="subnav">
+                    <p class="subnavbtn">Contact <i class="fa fa-caret-down"></i></p>
+                    <div class="subnav-content">
+                        <a href="#">Email</a>
+                        <a href="#">Twitter</a>
+                        <a href="#">Phone</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content -->
+    <main><h6 style='text-align: center; font-size: 60px'>Join Our Team</h6>
+    <div class='column'><quote>
+      <div id='testimonial1'><span class="tanquotes">"</span>I have been with this company for about 2 years and its the best company I have worked for. Good equipment and good environment.<span class="tanquotes">"</span><p><span class="material-symbols-outlined">
+grade
+</span>
+<span class="material-symbols-outlined">
+grade
+</span>
+<span class="material-symbols-outlined">
+grade
+</span>
+<span class="material-symbols-outlined">
+grade
+</span>
+<span class="material-symbols-outlined">
+grade
+</span>-Joel Rosales</div></p>
+<p class='quotediv'>Refrigerated OTR Division, since 2019<div></div><img src='https://raw.githubusercontent.com/codingfreak420/sidebar/main/images/night%20blkue%20pic.jpg' class='nighttruck'/></p>
+     
+ 
+ </quote>
+</div>
+
+    <!-- Main content -->
+    <div class='column1'>
+    <span class='appdescription' id='center'><style>
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@700&display=swap');
+</style>PRE-APPLY HERE & A RECRUITER WILL CONTACT YOU</STYLE></span>
+							<p id='center'class='required_legend'>&quot;<span class="required_line_required_asterisk">*</span>&quot; indicates required fields</p>
+<div class='appbody' id='center'> 
+  <fieldset name='driverappset'id='driverappset'>
+ <label for='first-name' class='first-name' >First<span class="required_line_required_asterisk">*</span></label> <input type='text' aria-required='true' id='appstyle'></input>
+ <label for='last-name'class='last-name' id='last-name'>Last<span class="required_line_required_asterisk">*</span></label> <input type='text' aria-required='true' id='appstyle'></input>
+    
+   <p> <div id='center'><label for='email' class='email' id='email'>Email<span class="required_line_required_asterisk">*</span></label><div></div> <input type='text'aria-required='true' id='appstyle'></input><div></div>
+    <label for='phone-number'class='phone-number' id='phone-number'>Phone Number<span class="required_line_required_asterisk">*</span></label><div></div> <input type='text'aria-required='true' id='appstyle'></input>
+    </div></p>
+    
+  <label for='street-address' class='street-address' id='street-address'>Street Address</label> <input type='text' aria-required='true' id='appstyle'></input>
+ <label for='address-line-2' class='address-line-2' id='address-line-2'>Address Line 2</label> <input type='text' aria-required='true' id='appstyle'></input>
+ <label for='city'class='city' id='city'>City</label> <input type='text' aria-required='true' id='appstyle'></input></form><form> <label for='state'class='state' id='state'>State</label> <select name='slstate' id='appstyle' aria-required='true'><option value='' selected='selected'></option><option value='Alabama' >Alabama</option><option value='Alaska' >Alaska</option><option value='American Samoa' >American Samoa</option><option value='Arizona' >Arizona</option><option value='Arkansas' >Arkansas</option><option value='California' >California</option><option value='Colorado' >Colorado</option><option value='Connecticut' >Connecticut</option><option value='Delaware' >Delaware</option><option value='District of Columbia' >District of Columbia</option><option value='Florida' >Florida</option><option value='Georgia' >Georgia</option><option value='Guam' >Guam</option><option value='Hawaii' >Hawaii</option><option value='Idaho' >Idaho</option><option value='Illinois' >Illinois</option><option value='Indiana' >Indiana</option><option value='Iowa' >Iowa</option><option value='Kansas' >Kansas</option><option value='Kentucky' >Kentucky</option><option value='Louisiana' >Louisiana</option><option value='Maine' >Maine</option><option value='Maryland' >Maryland</option><option value='Massachusetts' >Massachusetts</option><option value='Michigan' >Michigan</option><option value='Minnesota' >Minnesota</option><option value='Mississippi' >Mississippi</option><option value='Missouri' >Missouri</option><option value='Montana' >Montana</option><option value='Nebraska' >Nebraska</option><option value='Nevada' >Nevada</option><option value='New Hampshire' >New Hampshire</option><option value='New Jersey' >New Jersey</option><option value='New Mexico' >New Mexico</option><option value='New York' >New York</option><option value='North Carolina' >North Carolina</option><option value='North Dakota' >North Dakota</option><option value='Northern Mariana Islands' >Northern Mariana Islands</option><option value='Ohio' >Ohio</option><option value='Oklahoma' >Oklahoma</option><option value='Oregon' >Oregon</option><option value='Pennsylvania' >Pennsylvania</option><option value='Puerto Rico' >Puerto Rico</option><option value='Rhode Island' >Rhode Island</option><option value='South Carolina' >South Carolina</option><option value='South Dakota' >South Dakota</option><option value='Tennessee' >Tennessee</option><option value='Texas' >Texas</option><option value='Utah' >Utah</option><option value='U.S. Virgin Islands' >U.S. Virgin Islands</option><option value='Vermont' >Vermont</option><option value='Virginia' >Virginia</option><option value='Washington' >Washington</option><option value='West Virginia' >West Virginia</option><option value='Wisconsin' >Wisconsin</option><option value='Wyoming' >Wyoming</option><option value='Armed Forces Americas' >Armed Forces Americas</option><option value='Armed Forces Europe' >Armed Forces Europe</option><option value='Armed Forces Pacific' >Armed Forces Pacific</option></select>
+  <label for='zip-code' id='zip-code' class='zip-code'>Zip Code</label> <input type='text' aria-required='true' id='appstyle'></input>
+    
+  
+<div class='section4'id='center'><label for='experience' class='experience' id='experience'>Experience Driving a Semi<span class="required_line_required_asterisk">*</span></label><div></div> <select name='expsl' id='appstyle' class='expsl'    aria-required="true" aria-invalid="false" ><option value='0 to 6 mo.' >0 to 6 mo.</option><option value='6 mo. to 1 yr.' >6 mo. to 1 yr.</option><option value='1 yr. to 2 yrs.' >1 yr. to 2 yrs.</option><option value='2 yrs. or More' >2 yrs. or More</option><option value='Does not apply' >Does not apply</option></select><div></div>
+<label for='position-desired'class='position-desired' id='position-desired'>Position Desired<span class="required_line_required_asterisk">*</span></label><div></div> <select name='positiondesiredsl' class='positiondesiredsl'    aria-required="true" id='appstyle' ><option value='Any Position' >Any Position</option><option value='Company Driver Solo' >Company Driver Solo</option><option value='Company Driver Team' >Company Driver Team</option><option value='Owner Operator Solo' >Owner Operator Solo</option><option value='Owner Operator Team' >Owner Operator Team</option></select><div></div>
+<label for='division'class='division' id='division'>Division Desired<span class="required_line_required_asterisk">*</span></label><div></div> <select name='divisionsl' id='appstyle' class='divisionsl'    aria-required="true" ><option value='Any Division' >Any Division</option><option value='Regional/TX Refrigerated' >Regional/TX Refrigerated</option><option value='OTR Regrigerated' >OTR Regrigerated</option><option value='Regional/TX Dry Van' >Regional/TX Dry Van</option><option value='OTR Dry Van' >OTR Dry Van Team</option></select></div> 
+      <input type='submit' id='appsubmit'/></fieldset>
+    </main>
+
+  <footer>
+        <div class="footer-content">
+          <a href='#' class='footerlogo'><h3><img src='https://raw.githubusercontent.com/codingfreak420/sidebar/main/images/logo.jpg'></h3></a>
+            <p>We are proud to serve our country and community.</p>
+            <ul class="socials">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy; <a href="#">Valin Web Development</a></p>
+                    <div class="footer-menu">
+                      <ul class="f-menu">
+                        <li><a href="join-the-team.html">Join The Team</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Blog</a></li>
+                      </ul>
+                    </div>
+        </div>
+
+    </footer>
+</body>
+</html>
