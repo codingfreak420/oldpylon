@@ -1,0 +1,250 @@
+/* Theming */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+:root{
+     --dark: #2B1809;
+    --tan: #CDBAA5;
+    --grey: white;
+}
+
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+/* Header */
+.header{
+    background-color: var(--tan);
+    box-shadow: 1px 1px 5px 0px var(--grey);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/* Logo */
+.logo{
+    display: inline-block;
+    color: var(--dark);
+    font-size: 60px;
+    margin-left: 10px;
+
+}
+
+/* Nav menu */
+.nav{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: var(--tan);
+    overflow: hidden;   
+}
+
+.menu a,.menu p{
+    display: block;
+    padding: 30px;
+    color: var(--dark);
+
+}
+
+.menu a:hover{
+    background-color: var(--grey);
+}
+
+.nav{
+    max-height: 0;
+    transition: max-height .5s ease-out;
+}
+
+/* Sub nav */
+.subnav-content {
+    background-color:  var(--dark);
+    width: 100%;
+    z-index: 1;
+    padding: 20px 0 ;
+    display: none;
+  }
+.subnav-content a {
+    color: var(--tan);
+    text-decoration: none;
+    padding: 0;
+    margin: 10px 0;
+    text-align: center;
+}
+.subnav:hover .subnav-content {
+    display: block;
+}
+
+/* Menu Icon */
+
+.hamb{
+    cursor: pointer;
+    float: right;
+    padding: 40px 20px;
+}
+
+
+.hamb-line {
+    background: var(--dark);
+    display: block;
+    height: 2px;
+    position: relative;
+    width: 24px;
+    
+}
+
+.hamb-line::before,
+.hamb-line::after{
+    background: var(--dark);
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+}
+
+.hamb-line::before{
+    top: 5px;
+}
+
+.hamb-line::after{
+    top: -5px;
+}
+
+
+.side-menu {
+    display: none;
+}
+
+/* Toggle menu icon */
+
+.side-menu:checked ~ nav{
+    max-height: 100%;
+}
+
+.side-menu:checked ~ .hamb .hamb-line {
+    background: transparent;
+}
+
+.side-menu:checked ~ .hamb .hamb-line::before {
+    transform: rotate(-45deg);
+    top:0;
+
+}
+
+.side-menu:checked ~ .hamb .hamb-line::after {
+    transform: rotate(45deg);
+    top:0;
+}
+
+
+/* Responsiveness menu */
+
+@media (min-width: 768px) {
+    .nav{
+        max-height: none;
+        top: 0;
+        position: relative;
+        float: right;
+        width: fit-content;
+        background-color: transparent;
+
+    }
+
+    .menu li{
+        float: left;
+    }
+
+    .menu a:hover{
+        background-color: transparent;
+        color: var(--grey);
+        
+    }
+    
+    .hamb{
+        display: none;
+    }
+
+        /* Sub nav */
+    .subnav-content {
+        padding: 20px 0 ;
+        display: none;
+        background-color:  var(--black);
+    }
+    .subnav-content a {
+        color: white;
+    }
+    
+
+}
+main {text-align: center;  display: inline-block; margin-left: 3%; margin-right: 3%; margin-top: 100px; }
+.required_line_required_asterisk {color: red;}
+/*application*/
+
+.appdescription {font-size: 30}
+
+.column {  
+    float: left;
+    width: 45%;
+    }
+
+
+.column1 {float: right;
+width: 45%; 
+margin-right: 20px;}
+
+
+.nighttruck {border-radius: 50px; max-width: 80%; height: 50%;}
+
+#testimonial1 {font-family: 'Kalam', cursive; font-size: 30; margin-left: 5%; margin-right: 5%; }
+.tanquotes {color: #CDBAA5 }
+.material-symbols-outlined {color: gold;
+}
+
+#driverappset {border: none;}
+#appstyle {
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid #CDBAA5;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    
+    }
+
+#appsubmit {margin-top: 10px;
+  border: 4px solid #CDBAA5;
+  color: #CDBAA5;
+  border-radius: 9px;
+  width: 20%;
+  background-color: #2B1809;
+  text-align: center;
+  }
+/*app responsivness*/
+@media screen and (max-width: 895px) {
+  .column {
+    float: none;
+    width: 100%;
+  }
+
+  .column1 {
+    float: none;
+    width: 100%;
+  }}
+/*footer*/
+.footerlogo {color: green}
