@@ -209,7 +209,7 @@ width: 45%;
 margin-right: 20px;}
 
 
-.nighttruck {border-radius: 50px; max-width: 80%; height: 50%;}
+.nighttruck {border-radius: 50px; max-width: 80%; height: auto;}
 
 #testimonial1 {font-family: 'Kalam', cursive; font-size: 30; margin-left: 5%; margin-right: 5%; }
 .tanquotes {color: #CDBAA5 }
