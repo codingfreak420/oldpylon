@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+ <style media="screen">
+      *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #fcfcfc;
+    font-family: sans-serif;
+}
+footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--tan);
+    height: auto;
+    width: 100vw;
+    top: 10;
+    padding-top: 40px;
+    color: var(--grey);
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: var(--dark);
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: var(--dark);
+    border: 1.1px solid var(--dark);
+    padding: 5px;
+
+    border-radius: 50%;
+
+}
+.socials a i{
+    font-size: 1.1rem;
+    width: 20px;
+
+
+    transition: color .4s ease;
+
+}
+.socials a:hover i{
+    color: white;
+}
+
+.footer-bottom{
+    background: var(--dark);
+    width: 100vw;
+    padding: 20px;
+padding-bottom: 40px;
+    text-align: center;
+}
+.footer-bottom p{
+float: left;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom p a{
+  color:var(--tan);
+  font-size: 16px;
+  text-decoration: none;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+.footer-menu{
+  float: right;
+
+}
+.footer-menu ul{
+  display: flex;
+}
+.footer-menu ul li{
+padding-right: 10px;
+display: block;
+}
+.footer-menu ul li a{
+  color: var(--tan);
+  text-decoration: none;
+}
+.footer-menu ul li a:hover{
+  color: white;
+}
+
+@media (max-width:500px) {
+.footer-menu ul{
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.footer-bottom{height: 120px;}
+}
+    </style>
+
+
+
+    <!-- App title -->
+    <title>Responsive Pure CSS Menu</title>
+
+    <!-- Link css file -->
+    <link rel="stylesheet" href="main.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,200,1,-25">
+
+<script src='https://kit.fontawesome.com.bda7966dd.js' crossorigin='anonymous'></script>
+
+</head>
+<body>
+    
+    <!-- Navigation bar -->
+    <header class="header">
+        <!-- Logo -->
+        <a href="#" class="logo"><img src='https://raw.githubusercontent.com/codingfreak420/sidebar/main/images/logo.jpg'></a>
+
+        <!-- Hamburger icon -->
+        <input class="side-menu" type="checkbox" id="side-menu"/>
+        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+
+        <!-- Menu -->
+        <nav class="nav">
+            <ul class="menu">
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Blog</a> </li>
+                <li><a href="#">About</a></li>
+                <li class="subnav">
+                    <p class="subnavbtn">Contact <i class="fa fa-caret-down"></i></p>
+                    <div class="subnav-content">
+                        <a href="#">Email</a>
+                        <a href="#">Twitter</a>
+                        <a href="#">Phone</a>
+                    </div>
+                </li>
+                <li class="subnav">
+                    <p class="subnavbtn">Contact <i class="fa fa-caret-down"></i></p>
+                    <div class="subnav-content">
+                        <a href="#">Email</a>
+                        <a href="#">Twitter</a>
+                        <a href="#">Phone</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+   
+
+  <footer>
+        <div class="footer-content">
+          <a href='#' class='footerlogo'><h3><img src='https://raw.githubusercontent.com/codingfreak420/sidebar/main/images/logo.jpg'></h3></a>
+            <p>We are proud to serve our country and community.</p>
+            <ul class="socials">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy; <a href="#">Valin Web Development</a></p>
+                    <div class="footer-menu">
+                      <ul class="f-menu">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Blog</a></li>
+                      </ul>
+                    </div>
+        </div>
+
+    </footer>
+</body>
+</html>
