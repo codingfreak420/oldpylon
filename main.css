@@ -12,6 +12,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 body{
@@ -34,6 +35,7 @@ ul{
     position: fixed;
     top: 0;
     width: 100%;
+    
 }
 
 /* Logo */
@@ -192,10 +194,23 @@ ul{
     
 
 }
-main {text-align: center;  display: inline-block; margin-left: 3%; margin-right: 3%; margin-top: 100px; }
-.required_line_required_asterisk {color: red;}
-/*application*/
 
+/*mainpage */
+
+#truckheader {width: 100%;}
+#twodecades {margin-top: -250;font-family: 'Bruno Ace SC', cursive;
+font-family: 'Rubik Mono One', sans-serif; width: 100%; color: var(--dark); margin-left: 30px; position: static; }
+.getquotebutton {height: 40px; width: 250px; border-color: var(--dark); border-width: 8px; border-radius: 9px; background-color: var(--tan); font-size: 20px; color: var(--dark);}
+#buttonalign {text-align: center}
+#homemain {background-color: var(--tan);}
+@media screen and (max-width: 1000px){
+    #twodecades{margin-top: -250; width: 80%; margin-right: 10%;}
+    #truckheader{height: 50%}
+}
+
+/*application*/
+#mainapp {text-align: center;  display: inline-block; margin-left: 3%; margin-right: 3%; margin-top: 100px; }
+.required_line_required_asterisk {color: red;}
 .appdescription {font-size: 30}
 
 .column {  
