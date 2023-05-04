@@ -157,7 +157,7 @@ ul{
 
 /* Responsiveness menu */
 
-@media (min-width: 768px) {
+@media (min-width: 800px) {
     .nav{
         max-height: none;
         top: 0;
@@ -191,16 +191,48 @@ ul{
     .subnav-content a {
         color: white;
     }
-    
 
 }
 
 /*mainpage */
-
-#homemain { background-color: (var--tan);
-background-image: url("https://raw.githubusercontent.com/codingfreak420/sidebar/main/images/bluetruck.jpg");background-repeat: no-repeat; height: 850px; width: 100%; background-position: center top;
+#homemain {text-align: center;  display: ; margin-top: 85px;
+background-image: url("https://raw.githubusercontent.com/codingfreak420/sidebar/main/images/bluetruck.jpg");background-repeat: no-repeat; height: 850px; width: 100%; background-position: center top; background-color: var(--tan);
 }
-#twodecades {font-size: 35px; width: 65%; text-align: center; position: fixed; margin-left: 20px}
+
+.columnquote {  
+    float: left;
+    width: 70%;
+    }
+
+.column1apply {float: right;
+width: 50%; 
+}
+#twodecades {font-size: 35px;font-family: 'Rubik Mono One', sans-serif; color: var(--dark);margin-top: 12%;
+margin-left: 20px;}
+#applyhome {margin-top:20px; height: 40px; width: 200px; border-color: var(--dark);border-width: 5px; background-color: transparent;
+color: var(--dark); font-size: 25px}
+#quotehome {margin-top:225px;height: 40px; width: 200px;border-color: var(--dark);border-width: 5px; background-color: transparent;
+color: var(--dark); font-size: 25px}
+
+@media screen and (max-width: 895px) {
+  .columnquote {
+    float: none;
+    width: 100%;
+  }
+
+  .column1apply {
+    float: none;
+    width: 100%;
+  }
+  #quotehome {margin-top:40px;}
+  #applyhome {margin-top:20px;}
+  #twodecades {margin-left: 0;}
+  }
+
+
+
+
+
 /*application*/
 #mainapp {text-align: center;  display: inline-block; margin-left: 3%; margin-right: 3%; margin-top: 100px; }
 .required_line_required_asterisk {color: red;}
