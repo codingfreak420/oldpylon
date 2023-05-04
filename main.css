@@ -234,8 +234,8 @@ color: var(--dark); font-size: 25px}
 
 @media screen and (max-width: 475px){
   #homemain {padding-top: 50px}
-     #twodecades {font-size: 15px}
-}
+  #twodecades {font-size: 20px;
+       width:auto;}}
 
 
 
