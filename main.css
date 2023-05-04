@@ -211,8 +211,11 @@ width: 50%;
 margin-left: 20px;}
 #applyhome {margin-top:20px; height: 40px; width: 200px; border-color: var(--dark);border-width: 5px; background-color: transparent;
 color: var(--dark); font-size: 25px}
+#applyhome:hover {background-color: var(--tan)}
 #quotehome {margin-top:225px;height: 40px; width: 200px;border-color: var(--dark);border-width: 5px; background-color: transparent;
 color: var(--dark); font-size: 25px}
+#applyhome:hover {background-color: var(--tan)}
+#quotehome:hover {background-color: var(--tan)}
 
 @media screen and (max-width: 895px) {
   .columnquote {
