@@ -1,3 +1,5 @@
+html {background-color: var(--tan)}
+
 /* Theming */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
@@ -9,15 +11,16 @@
 
 /* Reset */
 *{
-    margin: 0;
+    
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box;max-width: 1700px; margin: auto;
 
 }
 
 body{
     background-color: white;
     font-family: "Poppins", sans-serif;
+    
 }
 
 a{
@@ -31,10 +34,11 @@ ul{
 /* Header */
 .header{
     background-color: var(--tan);
-    box-shadow: 1px 1px 5px 0px var(--grey);
+    box-shadow: 1px 0px 40px 0px black;
     position: fixed;
     top: 0;
     width: 100%;
+    height: 100px;
     
 }
 
@@ -44,7 +48,7 @@ ul{
     color: var(--dark);
     font-size: 60px;
     margin-left: 10px;
-
+    margin-top: 7px;
 }
 
 /* Nav menu */
@@ -53,7 +57,8 @@ ul{
     height: 100%;
     position: fixed;
     background-color: var(--tan);
-    overflow: hidden;   
+    overflow: hidden; 
+    margin-top: 10px;  
 }
 
 .menu a,.menu p{
@@ -194,9 +199,22 @@ ul{
 
 }
 
+
+
 /*mainpage */
-#homemain {text-align: center;  display: ; margin-top: 85px;
-background-image: url("https://raw.githubusercontent.com/codingfreak420/sidebar/main/images/bluetruck.jpg");background-repeat: no-repeat; height: 850px; width: 100%; background-position: center top; background-color: var(--tan);
+#homemain {text-align: center;  display: inline-block; margin-top: 85px;
+background-image: url("https://raw.githubusercontent.com/codingfreak420/sidebar/main/images/bluetruck.jpg");
+  background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px none;
+     height: 700px; width: 100%; background-position: center top; background-color: var(--tan);
+}
+#homemain img {
+    display: block;
+    visibility: hidden; /*hidden but reserve the space*/
+    width: 100%;
+    height: auto;
+
 }
 
 .columnquote {  
@@ -217,7 +235,16 @@ color: var(--dark); font-size: 25px}
 #applyhome:hover {background-color: var(--tan)}
 #quotehome:hover {background-color: var(--tan)}
 
-@media screen and (max-width: 895px) {
+.homemaintwo {width: 100%; border: none; height: 300px; background-color: var(--dark); margin-top: 225px; position: static;  }
+
+.homemaintwo > .material-symbols-outlined { color: white; font-size: 80px; padding-top: 40px; position: relative;
+			display: inline-flex; justify-content: space-between; }
+
+@media screen and (max-width: 1700px) {
+  
+ }
+
+@media screen and (max-width: 1024px) {
   .columnquote {
     float: none;
     width: 100%;
@@ -227,13 +254,18 @@ color: var(--dark); font-size: 25px}
     float: none;
     width: 100%;
   }
+  .homemaintwo {margin-top: -1px }
   #quotehome {margin-top:40px;}
   #applyhome {margin-top:20px;}
   #twodecades {margin-left: 0;}
   }
 
-@media screen and (max-width: 475px){
-  #homemain {padding-top: 50px}
+@media screen and (max-width: 768px){}
+
+
+
+
+@media screen and (max-width: 480px){
   #twodecades {font-size: 20px;
        width:auto;}}
 
@@ -294,3 +326,4 @@ margin-right: 20px;}
   }}
 /*footer*/
 .footerlogo {color: green}
+
