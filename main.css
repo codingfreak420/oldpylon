@@ -203,12 +203,12 @@ ul{
 
 
 /*mainpage */
-#homemain {text-align: center;  display: inline-block; margin-top: 85px;
+#homemain {text-align: center;  display: inline-block;
 background-image: url("https://raw.githubusercontent.com/codingfreak420/sidebar/main/images/bluetruck.jpg"); border-radius: 5px;
   background-repeat: no-repeat;
     background-size: contain;
     border: 1px none;
-     height: auto; width: 100%; background-position: center top; background-color: var(--tan);
+     height: auto; width: auto; background-position: center top; background-color: var(--tan);
 }
 #homemain img {
     display: block;
@@ -279,16 +279,31 @@ h6 {margin-top: 15px}
 
 #testimonial2 {font-family: 'Kalam', cursive; font-size: 30; margin-left: 5%; margin-right: 5%; margin-top: 50px;}
 
+@media screen and (max-width: 1016px) {
 
-@media screen and (min-width: 1252px) and (max-width: 1687px) {
-	#homemain img {
-    
-    height: 100%;
+  #twodecades {margin-top: 33%}
+  .columnapply {margin-top: -100}
+  
+ }
+
+@media screen and (max-width: 1052px){.homemaintwoicons > .material-symbols-outlined{ font-size: 60px; } .homemaintwotext {font-size: 15px; margin-left: -2%}
+}
+
+ @media screen and (min-width: 1018px) and (max-width: 1253px) {
+	
+	.columnapply{float: none; margin-top: -100; }
+	#twodecades{float: none;margin-top:110px; width: 100%;}
 }
 
 }
+@media screen and (min-width: 748px) and (max-width: 1017px){
+	
+	#twodecades{padding-top: -100; }
 
-@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 1224px) {
   .columnquote {
     float: none;
     width: 100%;
@@ -299,7 +314,7 @@ h6 {margin-top: 15px}
     width: 100%;
   }
   .homemaintwo {margin-top: -1px }
-  #quotehome {margin-top:40px;}
+  #quotehome {margin-top:160px;}
   #applyhome {margin-top:20px;}
   #twodecades {margin-left: 0;}
   }
