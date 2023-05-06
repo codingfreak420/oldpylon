@@ -279,11 +279,18 @@ h6 {margin-top: 15px}
 
 #testimonial2 {font-family: 'Kalam', cursive; font-size: 30; margin-left: 5%; margin-right: 5%; margin-top: 50px;}
 
-@media screen and (width: 1252px-1687px) {#homemain img {
+@media screen and (min-width: 1252px) {#homemain img {
     
     height: 100%;
 
-}  
+     }}
+  
+ @media screen and (max-width:-1687px) {#homemain img {
+    
+    height: 100%;
+
+     }   
+     
  }
 
 @media screen and (max-width: 1024px) {
