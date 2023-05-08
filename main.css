@@ -222,7 +222,7 @@ background-image: url("https://raw.githubusercontent.com/codingfreak420/sidebar/
     width: 70%;
     }
 
-.column1apply {float: right;
+.columnapply {float: right;
 width: 50%; 
 }
 #twodecades {font-size: 35px;font-family: 'Rubik Mono One', sans-serif; color: var(--dark);margin-top: 12%;
