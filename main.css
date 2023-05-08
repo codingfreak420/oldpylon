@@ -208,7 +208,7 @@ background-image: url("https://raw.githubusercontent.com/codingfreak420/sidebar/
   background-repeat: no-repeat;
     background-size: contain;
     border: 1px none;
-     height: auto; width: auto; background-position: center top; background-color: var(--tan);
+     height: auto; width: auto; background-position: center top; background-color: var(--tan); margin-top: 100px;
 }
 #homemain img {
     display: block;
@@ -231,7 +231,7 @@ margin-left: 20px;}
 #applyhome {margin-top:20px; height: 40px; width: 200px; border-color: var(--dark);border-width: 5px; background-color: transparent;
 color: var(--dark); font-size: 25px}
 #applyhome:hover {background-color: var(--tan)}
-#quotehome {margin-top:225px;height: 40px; width: 200px;border-color: var(--dark);border-width: 5px; background-color: transparent;
+#quotehome {margin-top:190px;height: 40px; width: 200px;border-color: var(--dark);border-width: 5px; background-color: transparent;
 color: var(--dark); font-size: 25px}
 #applyhome:hover {background-color: var(--tan)}
 #quotehome:hover {background-color: var(--tan)}
@@ -243,7 +243,7 @@ color: var(--dark); font-size: 25px}
     height: 15px;
     margin: 0rem 0 3rem 0rem;
 margin-top: 17px; }
-.homemaintwo {width: 100%; border: none; height: 160px; background-color: var(--dark); margin-top: 200px; border-radius: 5px;
+.homemaintwo {width: 100%; border: none; height: 160px; background-color: var(--dark); margin-top: 177px; border-radius: 5px;
              }
 .homemaintwoicons {list-style: none;
     display: flex;
