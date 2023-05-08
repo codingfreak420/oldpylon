@@ -208,7 +208,7 @@ background-image: url("https://raw.githubusercontent.com/codingfreak420/sidebar/
   background-repeat: no-repeat;
     background-size: contain;
     border: 1px none;
-     height: auto; width: auto; background-position: center top; background-color: var(--tan); margin-top: 100px;
+     height: auto; width: 100%; background-position: center top; background-color: var(--tan); margin-top: 100px;
 }
 #homemain img {
     display: block;
