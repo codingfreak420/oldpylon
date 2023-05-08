@@ -304,6 +304,8 @@ margin-right: 20px;}
 .tanquotes {color: #CDBAA5 }
 .material-symbols-outlined {color: gold;
 }
+
+#appstyle {border-left:none;border-right:none;border-top:none;border-bottom: solid;}
 /*app responsivness*/
 @media screen and (max-width: 895px) {
   .column {
