@@ -280,8 +280,7 @@ h6 {margin-top: 15px}
 
 #aboutusphoto {border-radius: 50px;width: 95%; border: solid; height: auto; border-radius: 50px; }
 
-#testimonial2 {font-family: 'Kalam', cursive; font-size: 30; margin-left: 5%; margin-right: 5%; margin-top: 50px;.material-symbols-outlined {color: gold;
-}
+#testimonial2 {font-family: 'Kalam', cursive; font-size: 30; margin-left: 5%; margin-right: 5%; margin-top: 50px;.material-symbols-outlined {color: gold;}
 
 /*application*/
 #mainapp {text-align: center;  display: inline-block; margin-left: 3%; margin-right: 3%; margin-top: 100px; }
@@ -303,8 +302,7 @@ margin-right: 20px;}
 
 #testimonial1 {font-family: 'Kalam', cursive; font-size: 30; margin-left: 5%; margin-right: 5%; }
 .tanquotes {color: #CDBAA5 }
-.material-symbols-outlined {color: gold;
-}
+.material-symbols-outlined {color: gold;}
 
 #driverappset {border: none;}
 #appstyle {
