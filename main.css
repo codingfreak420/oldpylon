@@ -14,7 +14,6 @@ html {background-color: var(--tan)}
     
     padding: 0;
     box-sizing: border-box;max-width: 1700px; margin: auto;
-
 }
 
 body{
@@ -289,13 +288,7 @@ h6 {margin-top: 15px}
 @media screen and (max-width: 1052px){.homemaintwoicons > .material-symbols-outlined{ font-size: 60px; } .homemaintwotext {font-size: 15px; margin-left: -2%}
 }
 
- @media screen and (min-width: 1018px) and (max-width: 1253px) {
-	
-	.columnapply{float: none; margin-top: -100; }
-	#twodecades{float: none;margin-top:110px; width: 100%;}
-}
-
-}
+ 
 @media screen and (min-width: 748px) and (max-width: 1017px){
 	
 	#twodecades{padding-top: -100; }
@@ -303,7 +296,28 @@ h6 {margin-top: 15px}
 
 }
 
-@media screen and (max-width: 1224px) {
+
+@media screen and (min-width: 1025px) and (max-width: 1253px) {
+	
+	.columnapply{ margin-top: -170; width: 30% }
+	#twodecades{margin-top:11px; width: 60%;}
+}
+
+@media screen and (max-width: 1036px) {
+	
+	.columnapply{ margin-top: -190; }
+	#twodecades{margin-top:1px; }
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: ) {
   .columnquote {
     float: none;
     width: 100%;
