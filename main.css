@@ -238,28 +238,39 @@ color: var(--dark); font-size: 25px}
 color: var(--dark); font-size: 25px}
 #quotehome:hover {background-color: var(--tan)}
 
-.homemaintwotext { font-size: 25px; 
+.homemaintwo {background-color: #2B1809; border: none;}
+.homemaintwocolumn {width: 47%; float: left; border: none;}
+.homemaintwotext {
+display: flex;
+    align-items: left;
+    justify-content: space-evenly;
+    width: 95%;
+    font-size: 20; border: none; color: white;}
+.homemaintwoicons {
   display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    height: 15px;
-    margin: 0rem 0 3rem 0rem;
-margin-top: 17px; }
-.homemaintwo {width: 100%; border: none; height: 160px; background-color: var(--dark); border-radius: 5px;
-             } 
-.homemaintwoicons {list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: -1rem 0 3rem 0;}
+    justify-content: space-around;
+    width: 95%; border: none;}
+.homemaintwoicons >.material-symbols-outlined {font-size: 50; color: white}
+.homemaintwocolumn1 {width: 47%; float: right; border: none;}
+.homemaintwotext1 {
+display: flex;
+    align-items: left;
+    justify-content: space-evenly;
+    width: 95%;
+    font-size: 20; border: none; color: white}
+.homemaintwoicons1 {
+  display: flex;
+    justify-content: space-around;
+    width: 95%; border: none;}
 
-.homemaintwoicons > .material-symbols-outlined { color: white; font-size: 80px;  }
-.gps {padding-left: 40px;}
-.dedicatedlanes {padding-left: 75px;}
-.fambusi {padding-left: 4rem;}
-.ilp {padding-right: -70px ;}
+/*responsiveness homemaintwo*/  
 
+@media screen and (max-width: 1185px){
+.homemaintwocolumn {width: 96%; float: none;}
+.homemaintwocolumn1 {width:96%; float: none;}
+.fambusi {margin-left: 19%}
+}
+/*aboutus*/
 .homemainthree {width: 100%; border: none; text-align: center;  display: inline-block;  height: auto; background-color: var(--tan)}
 
 
@@ -282,6 +293,26 @@ h6 {margin-top: 15px}
 
 #testimonial2 {font-family: 'Kalam', cursive; font-size: 30; margin-left: 5%; margin-right: 5%; margin-top: 50px;}.material-symbols-outlined {color: gold}
 
+
+@media screen and (max-width: 1200px){
+
+}
+@media screen and (max-width: 900px) {
+  #twodecades {margin-top: -225}
+  #quotehome {margin-top: -60}
+}
+@media screen and (max-width: 780px) {
+  #twodecades {font-size: 25px; margin-top: -150;}
+  #quotehome {margin-top: -15px; font-size: 15px; height: 30; width: 120}
+  #applyhome {font-size: 15px; font-size: 15px; height: 30; width: 120}
+  } 
+
+@media screen and (max-width: 485px) {
+#twodecades {font-size: 15px; margin-top: -100px;}
+#quotehome {margin-top: -}
+  } 
+
+}
 /*application*/
 #mainapp {text-align: center;  display: inline-block; margin-left: 3%; margin-right: 3%; margin-top: 100px; border: none;}
 .required_line_required_asterisk {color: red;}
@@ -317,5 +348,4 @@ margin-right: 20px;}
     float: none;
     width: 100%;
   }}
-
 
