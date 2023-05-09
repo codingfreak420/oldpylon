@@ -305,7 +305,7 @@ margin-right: 20px;}
 .material-symbols-outlined {color: gold;
 }
 
-#appstyle {border-left:none;border-right:none;border-top:none;border-bottom: solid; width: 70%; border-color: var(--tan);}
+#appstyle {border-left:none;border-right:none;border-top:none;border-bottom: solid; width: 90%; border-color: var(--tan);}
 /*app responsivness*/
 @media screen and (max-width: 895px) {
   .column {
