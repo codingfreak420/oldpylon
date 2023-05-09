@@ -298,20 +298,20 @@ h6 {margin-top: 15px}
 #aboutusphoto {border-radius: 50px;width: 95%; border: solid; height: auto; border-radius: 50px; }
 #aboutusphoto1 {border-radius: 50px;width: 95%; border: solid; height: auto; border-radius: 50px; }
 
-#testimonial2 {font-family: 'Kalam', cursive; font-size: 30; margin-left: 5%; margin-right: 5%; margin-top: 50px;}.material-symbols-outlined {color: gold}
+#testimonial2 {font-family: 'Kalam', cursive; font-size: 30px; margin-left: 5%; margin-right: 5%; margin-top: 50px;}.material-symbols-outlined {color: gold}
 
 
 @media screen and (max-width: 1200px){
 
 }
 @media screen and (max-width: 900px) {
-  #twodecades {margin-top: -225}
-  #quotehome {margin-top: -60}
+  #twodecades {margin-top: -225px}
+  #quotehome {margin-top: -60px}
 }
 @media screen and (max-width: 780px) {
-  #twodecades {font-size: 25px; margin-top: -150;}
-  #quotehome {margin-top: -15px; font-size: 15px; height: 30; width: 120}
-  #applyhome { font-size: 15px; height: 30; width: 120}
+  #twodecades {font-size: 25px; margin-top: -150px;}
+  #quotehome {margin-top: -15px; font-size: 15px; height: 30px; width: 120px}
+  #applyhome { font-size: 15px; height: 30px; width: 120px}
   } 
 
 @media screen and (max-width: 485px) {
