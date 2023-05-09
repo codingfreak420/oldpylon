@@ -201,8 +201,13 @@ ul{
 
 
 
-
-
+/*footer*/
+@media screen and (max-width: 580px){
+  
+  .footer-bottom p{float: none; margin-top: -2%}
+  .footer-menu{float: none;}
+  
+}
 
 
 #headerhome { display: inline-block; background-position: center-top;
@@ -238,8 +243,8 @@ color: var(--dark); font-size: 25px}
 color: var(--dark); font-size: 25px}
 #quotehome:hover {background-color: var(--tan)}
 
-.homemaintwo {background-color: #2B1809; border: none; height: 200px;}
-.homemaintwocolumn {width: 47%; float: left; border: none; margin-top: 3%;}
+.homemaintwo {background-color: #2B1809; border: none; height: 140px; border-radius: 5px;}
+.homemaintwocolumn {width: 47%; float: left; border: none; margin-top: 2%;}
 .homemaintwotext {
 display: flex;
     align-items: left;
@@ -251,7 +256,7 @@ display: flex;
     justify-content: space-around;
     width: 95%; border: none;}
 .homemaintwoicons >.material-symbols-outlined {font-size: 50px; color: white}
-.homemaintwocolumn1 {width: 47%; float: right; border: none; margin-top: 3%;}
+.homemaintwocolumn1 {width: 47%; float: right; border: none; margin-top: 2%;}
 .homemaintwotext1 {
 display: flex;
     justify-content: space-evenly;
@@ -265,6 +270,7 @@ display: flex;
 /*responsiveness homemaintwo*/  
 
 @media screen and (max-width: 1185px){
+.homemaintwo {height: 180px;}  
 .homemaintwocolumn {width: 96%; float: none; margin-top: 1%}
 .homemaintwocolumn1 {width:96%; float: none;}
 
@@ -313,6 +319,7 @@ h6 {margin-top: 15px}
 #twodecades {font-size: 13px; margin-top: -80px;margin-right: %;}
 #quotehome {margin-top: -15px; font-size: 10px; height: 25px; width: 80px}
   #applyhome { font-size: 10px; height: 25px; width: 80px; margin-top: -1px;}
+.homemaintwo {margin-top: -5%;}  
 .homemaintwotext {font-size: 13px}
 .homemaintwoicons {font-size: 13px}
 .homemaintwocolumn {margin-top: 8%}
@@ -368,3 +375,5 @@ margin-right: 20px;}
     width: 100%;
   }}
 #appstyle > option {text-align: center;}
+
+}
