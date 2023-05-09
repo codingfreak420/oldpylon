@@ -33,22 +33,21 @@ ul{
 /* Header */
 .header{
     background-color: var(--tan);
-    box-shadow: 1px 0px 40px 0px black;
+    box-shadow: 1px 1px 5px 0px black;
     position: fixed;
     top: 0;
     width: 100%;
-    height: 100px;
-    border-radius: 9px;
-    
-}
+    height: auto;
+    padding-bottom: 10px;
+    padding-top: 5px;}
 
 /* Logo */
 .logo{
     display: inline-block;
-    color: var(--dark);
+    color: var(--green);
     font-size: 60px;
     margin-left: 10px;
-    margin-top: 7px;
+
 }
 
 /* Nav menu */
@@ -56,15 +55,16 @@ ul{
     width: 100%;
     height: 100%;
     position: fixed;
-    background-color: var(--tan);
-    overflow: hidden; 
-    margin-top: 10px;  
+    background-color: var(--black);
+    overflow: hidden;
+    
 }
 
 .menu a,.menu p{
     display: block;
     padding: 30px;
     color: var(--dark);
+    background-color: var(--tan);
 
 }
 
@@ -79,18 +79,19 @@ ul{
 
 /* Sub nav */
 .subnav-content {
-    background-color:  var(--dark);
+    background-color:  var(--tan);
     width: 100%;
     z-index: 1;
     padding: 20px 0 ;
     display: none;
   }
 .subnav-content a {
-    color: var(--tan);
+    color: var(--dark);
     text-decoration: none;
     padding: 0;
     margin: 10px 0;
     text-align: center;
+    
 }
 .subnav:hover .subnav-content {
     display: block;
@@ -160,16 +161,17 @@ ul{
 }
 
 
+
 /* Responsiveness menu */
 
 @media (min-width: 800px) {
-    .nav{
+        .nav{
         max-height: none;
         top: 0;
         position: relative;
         float: right;
         width: fit-content;
-        background-color: transparent;
+        background-color: var(--tan);
 
     }
 
@@ -191,14 +193,15 @@ ul{
     .subnav-content {
         padding: 20px 0 ;
         display: none;
-        background-color:  var(--black);
     }
     .subnav-content a {
-        color: white;
+        background-color: white;
+        border: none;
+        border-radius: 5px;
+    
     }
-
+.subnav-content a:hover {color: var(--dark);}
 }
-
 
 
 /*footer*/
@@ -215,7 +218,7 @@ ul{
     background-repeat: no-repeat;
     background-size: contain;
     border-radius: 5px;
-    margin-top: 100px;
+    margin-top: 75px;
 }
 #headerhome img {
     display: block;
@@ -298,20 +301,20 @@ h6 {margin-top: 15px}
 #aboutusphoto {border-radius: 50px;width: 95%; border: solid; height: auto; border-radius: 50px; }
 #aboutusphoto1 {border-radius: 50px;width: 95%; border: solid; height: auto; border-radius: 50px; }
 
-#testimonial2 {font-family: 'Kalam', cursive; font-size: 30px; margin-left: 5%; margin-right: 5%; margin-top: 50px;}.material-symbols-outlined {color: gold}
+#testimonial2 {font-family: 'Kalam', cursive; font-size: 30; margin-left: 5%; margin-right: 5%; margin-top: 50px;}.material-symbols-outlined {color: gold}
 
 
 @media screen and (max-width: 1200px){
 
 }
 @media screen and (max-width: 900px) {
-  #twodecades {margin-top: -225px}
-  #quotehome {margin-top: -60px}
+  #twodecades {margin-top: -225}
+  #quotehome {margin-top: -60}
 }
 @media screen and (max-width: 780px) {
-  #twodecades {font-size: 25px; margin-top: -150px;}
-  #quotehome {margin-top: -15px; font-size: 15px; height: 30px; width: 120px}
-  #applyhome { font-size: 15px; height: 30px; width: 120px}
+  #twodecades {font-size: 25px; margin-top: -135;}
+  #quotehome {margin-top: -15px; font-size: 15px; height: 30; width: 120}
+  #applyhome { font-size: 15px; height: 30; width: 120}
   } 
 
 @media screen and (max-width: 485px) {
@@ -375,5 +378,3 @@ margin-right: 20px;}
     width: 100%;
   }}
 #appstyle > option {text-align: center;}
-
-}
