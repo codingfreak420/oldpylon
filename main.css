@@ -312,8 +312,8 @@ h6 {margin-top: 15px}
 #quotehome {margin-top: -}
   } 
 
-}
-/*application*/
+
+
 #mainapp {text-align: center;  display: inline-block; margin-left: 3%; margin-right: 3%; margin-top: 100px; border: none;}
 .required_line_required_asterisk {color: red;}
 .appdescription {font-size: 30}
@@ -327,8 +327,6 @@ h6 {margin-top: 15px}
 .column1 {float: right;
 width: 45%; 
 margin-right: 20px;}
-
-
 .nighttruck {border-radius: 50px; max-width: 80%; height: auto;}
 
 #testimonial1 {font-family: 'Kalam', cursive; font-size: 30; margin-left: 5%; margin-right: 5%;}
@@ -348,4 +346,3 @@ margin-right: 20px;}
     float: none;
     width: 100%;
   }}
-
