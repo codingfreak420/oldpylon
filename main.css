@@ -243,7 +243,7 @@ color: var(--dark); font-size: 25px}
 color: var(--dark); font-size: 25px}
 #quotehome:hover {background-color: var(--tan)}
 
-.homemaintwo {background-color: #2B1809; border: solid, 3px; border-color: #2B1809 ; height: 140px; border-radius: 5px;}
+.homemaintwo {background-color: #2B1809; border: solid, 3px; border-color: #2B1809 ; height: 140px; border-radius: 5px; margin-top: -5px;}
 .homemaintwocolumn {width: 47%; float: left; border: none; margin-top: 2%;}
 .homemaintwotext {
 display: flex;
