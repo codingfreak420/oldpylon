@@ -285,11 +285,13 @@ h6 {margin-top: 15px}
 
 .aboutusphoto {float: right; width: 40%
 }
-
+.aboutusphoto1 {float: right; width: 40%
+}
 
 #aboutus {font-size: 15px;font-family: 'Rubik Mono One', sans-serif; color: var(--dark);  height: auto; margin-top: 10px;}
 
 #aboutusphoto {border-radius: 50px;width: 95%; border: solid; height: auto; border-radius: 50px; }
+#aboutusphoto1 {border-radius: 50px;width: 95%; border: solid; height: auto; border-radius: 50px; }
 
 #testimonial2 {font-family: 'Kalam', cursive; font-size: 30; margin-left: 5%; margin-right: 5%; margin-top: 50px;}.material-symbols-outlined {color: gold}
 
@@ -308,8 +310,8 @@ h6 {margin-top: 15px}
   } 
 
 @media screen and (max-width: 485px) {
-#twodecades {font-size: 15px; margin-top: -100px;}
-#twodecades {font-size: 13px; margin-top: -80px;}
+
+#twodecades {font-size: 13px; margin-top: -80px;margin-right: %;}
 #quotehome {margin-top: -15px; font-size: 10px; height: 25; width: 80}
   #applyhome { font-size: 10px; height: 25; width: 80; margin-top: -1px;}
 .homemaintwotext {font-size: 13}
@@ -322,6 +324,14 @@ h6 {margin-top: 15px}
  @media screen and (max-width: 580px){
     .aboutus {float: none; width: 100%}
     .aboutusphoto {float: none; width: 100%; margin-top: 10px;}
+    #aboutusphoto {float: none; }
+    #aboutusphoto1 {float: none;  }
+    .aboutus {
+    float: none;
+    width: 100%;
+    margin-left: 0px
+    
+    }
  }
 
 
