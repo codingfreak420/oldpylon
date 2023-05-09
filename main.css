@@ -314,7 +314,7 @@ h6 {margin-top: 15px}
 
 
 
-#mainapp {text-align: center;  display: inline-block; margin-left: 3%; margin-right: 3%; margin-top: 100px; border: none;}
+#mainapp {text-align: center;  display: inline-block;  margin-top: 100px; border: none; border-radius: 5px; height: auto}
 .required_line_required_asterisk {color: red;}
 .appdescription {font-size: 30}
 #driverappset {border: none;}
@@ -334,7 +334,7 @@ margin-right: 20px;}
 .material-symbols-outlined {color: gold;
 }
 
-#appstyle {border-left:none;border-right:none;border-top:none;border-bottom: solid; width: 90%; border-color: var(--tan); margin-left: 5%; margin-right: 5%;}
+#appstyle {border-left:none;border-right:none;border-top:none;border-bottom: solid; width: 90%; border-color: var(--tan); margin-left: 5%; margin-right: 5%; border-radius: 9px;}
 /*app responsivness*/
 @media screen and (max-width: 895px) {
   .column {
@@ -342,7 +342,8 @@ margin-right: 20px;}
     width: 100%;
   }
 
-  .column1 {
+  .column1 { margin-top: 35px;
     float: none;
     width: 100%;
   }}
+#appstyle > option {text-align: center;}
