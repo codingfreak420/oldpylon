@@ -245,18 +245,18 @@ display: flex;
     align-items: left;
     justify-content: space-evenly;
     width: 95%;
-    font-size: 20; border: none; color: white;}
+    font-size: 20px; border: none; color: white;}
 .homemaintwoicons {
   display: flex;
     justify-content: space-around;
     width: 95%; border: none;}
-.homemaintwoicons >.material-symbols-outlined {font-size: 50; color: white}
+.homemaintwoicons >.material-symbols-outlined {font-size: 50px; color: white}
 .homemaintwocolumn1 {width: 47%; float: right; border: none; margin-top: 3%;}
 .homemaintwotext1 {
 display: flex;
     justify-content: space-evenly;
     width: 95%;
-    font-size: 20; border: none; color: white; margin-right: -1px}
+    font-size: 20px; border: none; color: white; margin-right: -1px}
 .homemaintwoicons1 {
   display: flex;
     justify-content: space-around;
@@ -313,11 +313,11 @@ h6 {margin-top: 15px}
 #twodecades {font-size: 13px; margin-top: -80px;margin-right: %;}
 #quotehome {margin-top: -15px; font-size: 10px; height: 25px; width: 80px}
   #applyhome { font-size: 10px; height: 25px; width: 80px; margin-top: -1px;}
-.homemaintwotext {font-size: 13}
-.homemaintwoicons {font-size: 13}
+.homemaintwotext {font-size: 13px}
+.homemaintwoicons {font-size: 13px}
 .homemaintwocolumn {margin-top: 8%}
-.homemaintwotext1 {font-size: 13;}
-.homemaintwoicons1 {font-size: 13}
+.homemaintwotext1 {font-size: 13px;}
+.homemaintwoicons1 {font-size: 13px}
 .ilp {margin-left: 7%}
 .fambusi {margin-right: 5%}
   } 
@@ -337,7 +337,7 @@ h6 {margin-top: 15px}
 
 #mainapp {text-align: center;  display: inline-block;  margin-top: 100px; border: none; border-radius: 5px; height: auto}
 .required_line_required_asterisk {color: red;}
-.appdescription {font-size: 30}
+.appdescription {font-size: 30px}
 #driverappset {border: none;}
 .column {  
     float: left;
@@ -350,7 +350,7 @@ width: 45%;
 margin-right: 20px;}
 .nighttruck {border-radius: 50px; max-width: 80%; height: auto;}
 
-#testimonial1 {font-family: 'Kalam', cursive; font-size: 30; margin-left: 5%; margin-right: 5%;}
+#testimonial1 {font-family: 'Kalam', cursive; font-size: 30px; margin-left: 5%; margin-right: 5%;}
 .tanquotes {color: #CDBAA5 }
 .material-symbols-outlined {color: gold;
 }
