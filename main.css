@@ -247,7 +247,7 @@ color: var(--dark); font-size: 25px}
     margin: 0rem 0 3rem 0rem;
 margin-top: 17px; }
 .homemaintwo {width: 100%; border: none; height: 160px; background-color: var(--dark); border-radius: 5px;
-             }
+             } 
 .homemaintwoicons {list-style: none;
     display: flex;
     align-items: center;
@@ -286,7 +286,7 @@ h6 {margin-top: 15px}
 #mainapp {text-align: center;  display: inline-block; margin-left: 3%; margin-right: 3%; margin-top: 100px; border: none;}
 .required_line_required_asterisk {color: red;}
 .appdescription {font-size: 30}
-
+#driverappset {border: none;}
 .column {  
     float: left;
     width: 45%;
