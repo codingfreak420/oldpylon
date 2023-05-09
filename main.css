@@ -312,8 +312,8 @@ h6 {margin-top: 15px}
 @media screen and (max-width: 485px) {
 
 #twodecades {font-size: 13px; margin-top: -80px;margin-right: %;}
-#quotehome {margin-top: -15px; font-size: 10px; height: 25; width: 80}
-  #applyhome { font-size: 10px; height: 25; width: 80; margin-top: -1px;}
+#quotehome {margin-top: -15px; font-size: 10px; height: 25px; width: 80px}
+  #applyhome { font-size: 10px; height: 25px; width: 80px; margin-top: -1px;}
 .homemaintwotext {font-size: 13}
 .homemaintwoicons {font-size: 13}
 .homemaintwocolumn {margin-top: 8%}
