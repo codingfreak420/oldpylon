@@ -301,7 +301,7 @@ h6 {margin-top: 15px}
 #aboutusphoto {border-radius: 35px;width: 95%; border: solid; height: auto; margin-top: 20px;  }
 #aboutusphoto1 {border-radius: 35px;width: 95%; border: solid; height: auto; margin-right: 20%; border-color: var(--dark); margin-top: 15px; }
 
-#testimonial2 {font-family: 'Kalam', cursive; font-size: 30; margin-left: 5%; margin-right: 5%; margin-top: 50px;}.material-symbols-outlined {color: gold}
+#testimonial2 {font-family: 'Kalam', cursive; font-size: 30px; margin-left: 5%; margin-right: 5%; margin-top: 50px;}.material-symbols-outlined {color: gold}
 
 
 @media screen and (max-width: 1335px){
