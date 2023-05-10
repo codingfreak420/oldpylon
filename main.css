@@ -332,11 +332,12 @@ h6 {margin-top: 15px}
     .aboutus {
     float: none;
     width: 100%;
-    margin-left: 0px
+    margin-left: 0px;
     }
     #twodecades {font-size: 33px; margin-top: -215px;}
 #quotehome {margin-top: -15px; font-size: 20px; height: 40px; width: 140px}
   #applyhome { font-size: 20px; height: 40px; width: 140px; }
+      #testimonial2 {margin-top: 30px;}
  }
 @media screen and (max-width: 500px) {
   #twodecades {font-size: 25px; margin-top: -180px;}
@@ -349,7 +350,6 @@ h6 {margin-top: 15px}
 .homemaintwoicons1 {font-size: 13px;}
 .ilp {margin-left: 7%;}
 .fambusi {margin-right: 10%;}
- #testimonial2 {margin-top: 30px;}
   } 
   @media screen and (max-width: 450px) {
       #twodecades {font-size: 18px; margin-top: -130px;}
