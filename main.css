@@ -37,9 +37,10 @@ ul{
     position: fixed;
     top: 0;
     width: 100%;
-    height: auto;
-    padding-top: 5px;}
-
+    height: auto9
+    padding-top: 5px;
+    border-radius: 9px; 
+}
 /* Logo */
 .logo{
     display: inline-block;
@@ -290,15 +291,15 @@ h6 {margin-top: 15px}
     
     }
 
-.aboutusphoto {float: right; width: 40%
+.aboutusphoto {float: left; width: 40%
 }
 .aboutusphoto1 {float: right; width: 40%
 }
 
-#aboutus {font-size: 15px;font-family: 'Rubik Mono One', sans-serif; color: var(--dark);  height: auto; margin-top: 10px;}
+#aboutus {font-size: 20px;font-family: 'Rubik Mono One', sans-serif; color: var(--dark);  height: auto; margin-top: 10px;}
 
-#aboutusphoto {border-radius: 50px;width: 95%; border: solid; height: auto;  }
-#aboutusphoto1 {border-radius: 50px;width: 95%; border: solid; height: auto;  }
+#aboutusphoto {border-radius: 35px;width: 95%; border: solid; height: auto; margin-top: 20px;  }
+#aboutusphoto1 {border-radius: 35px;width: 95%; border: solid; height: auto; margin-right: 20%; border-color: var(--dark); margin-top: 15px; }
 
 #testimonial2 {font-family: 'Kalam', cursive; font-size: 30; margin-left: 5%; margin-right: 5%; margin-top: 50px;}.material-symbols-outlined {color: gold}
 
@@ -325,8 +326,9 @@ h6 {margin-top: 15px}
  @media screen and (max-width: 580px){
     .aboutus {float: none; width: 100%}
     .aboutusphoto {float: none; width: 100%; margin-top: 10px;}
+    .aboutusphoto1 {float: none; width: 100%; margin-top: 10px;}
     #aboutusphoto {float: none; }
-    #aboutusphoto1 {float: none;  }
+    #aboutusphoto1 {float: none; margin-right: 0; }
     .aboutus {
     float: none;
     width: 100%;
@@ -387,5 +389,7 @@ margin-right: 20px;}
     width: 100%;
   }}
 #appstyle > option {text-align: center;}
+
+}
 
 }
