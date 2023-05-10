@@ -357,10 +357,14 @@ h6 {margin-top: 15px}
   #applyhome { font-size: 10px; height: 35px; width: 80px; } 
   }
 
-#mainapp {text-align: center;  display: inline-block;  margin-top: 100px; border: none; border-radius: 5px; height: auto}
+#mainapp {text-align: center;  display: inline-block;  margin-top: 85px; border: none; border-radius: 5px; height: auto; background-color: var(--tan)}
 .required_line_required_asterisk {color: red;}
 .appdescription {font-size: 30px}
 #driverappset {border: none;}
+#driverappset > label {font-size: 20px;}
+.section4 {font-size: 20px;}
+#appsubmit {font-size: 25px; width: 120px; height: 40px; margin-top: 5px; background-color: white; border-color: var(--dark)}
+#appsubmit:hover {background-color: var(--dark); color: var(--tan)}
 .column {  
     float: left;
     width: 45%;
@@ -373,11 +377,11 @@ margin-right: 20px;}
 .nighttruck {border-radius: 50px; max-width: 80%; height: auto;}
 
 #testimonial1 {font-family: 'Kalam', cursive; font-size: 30px; margin-left: 5%; margin-right: 5%;}
-.tanquotes {color: #CDBAA5 }
+#testimonial1 > .tanquotes {color: var(--dark) }
 .material-symbols-outlined {color: gold;
 }
 
-#appstyle {border-left:none;border-right:none;border-top:none;border-bottom: solid; width: 90%; border-color: var(--tan); margin-left: 5%; margin-right: 5%; border-radius: 9px;}
+#appstyle {border-left:none;border-right:none;border-top:none;border-bottom: solid; width: 90%; border-color: var(--dark); margin-left: 5%; margin-right: 5%; border-radius: 9px; text-align: center; font-size: 20px;}
 /*app responsivness*/
 @media screen and (max-width: 895px) {
   .column {
