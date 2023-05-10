@@ -224,6 +224,7 @@ ul{
     visibility: hidden; /*hidden but reserve the space*/
     width: 100%;
     height: auto;
+    opacity: 30%;
 }
 
 #headerhomecontent {text-align: center;}
