@@ -349,7 +349,7 @@ h6 {margin-top: 15px}
 .homemaintwoicons1 {font-size: 13px;}
 .ilp {margin-left: 7%;}
 .fambusi {margin-right: 10%;}
-footer {margin-top: 0;}
+ #testimonial2 {margin-top: 30px;}
   } 
   @media screen and (max-width: 450px) {
       #twodecades {font-size: 18px; margin-top: -130px;}
