@@ -340,15 +340,16 @@ h6 {margin-top: 15px}
  }
 @media screen and (max-width: 500px) {
   #twodecades {font-size: 25px; margin-top: -180px;}
-  #quotehome {margin-top: -15px; font-size: 15px; height: 35px; width: 100px}
+  #quotehome {margin-top: -15px; font-size: 15px; height: 35px; width: 100px;}
   #applyhome { font-size: 15px; height: 35px; width: 100px; } 
-.homemaintwotext {font-size: 13px}
-.homemaintwoicons {font-size: 13px}
-.homemaintwocolumn {margin-top: 4%}
+.homemaintwotext {font-size: 13px;}
+.homemaintwoicons {font-size: 13px;}
+.homemaintwocolumn {margin-top: 4%;}
 .homemaintwotext1 {font-size: 13px;}
-.homemaintwoicons1 {font-size: 13px}
-.ilp {margin-left: 7%}
-.fambusi {margin-right: 10%}
+.homemaintwoicons1 {font-size: 13px;}
+.ilp {margin-left: 7%;}
+.fambusi {margin-right: 10%;}
+footer {margin-top: 0;}
   } 
   @media screen and (max-width: 450px) {
       #twodecades {font-size: 18px; margin-top: -130px;}
