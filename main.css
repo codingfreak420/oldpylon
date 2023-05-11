@@ -13,7 +13,7 @@ html {background-color: var(--tan)}
 *{
     
     padding: 0;
-    box-sizing: border-box;max-width: 1700px; margin: auto;
+    box-sizing: border-box;max-width: 1700px; min-width: 6px; margin: auto;
 }
 
 body{
@@ -34,11 +34,10 @@ ul{
 .header{
     background-color: var(--tan);
     box-shadow: 1px 1px 5px 0px black;
-    position: sticky;
     top: 0;
     width: 100%;
-    height: auto9
-    padding-top: 5px;
+    height: auto;
+    padding-top: 1px;
     border-radius: 9px; 
 }
 /* Logo */
@@ -54,10 +53,11 @@ ul{
 .nav{
     width: 100%;
     height: 100%;
-    position: fixed;
+    position: absolute;
     background-color: var(--black);
     overflow: hidden;
-    
+    max-height: 0;
+    transition: max-height .5s ease-out;
 }
 
 .menu a,.menu p{
@@ -72,10 +72,6 @@ ul{
     background-color: var(--grey);
 }
 
-.nav{
-    max-height: 0;
-    transition: max-height .5s ease-out;
-}
 
 /* Sub nav */
 .subnav-content {
@@ -91,8 +87,10 @@ ul{
     padding: 0;
     margin: 10px 0;
     text-align: center;
-    
-}
+    border-radius: 5px;
+    margin-left: 25%;
+    margin-right: 25%;
+    }
 .subnav:hover .subnav-content {
     display: block;
 }
@@ -166,12 +164,14 @@ ul{
 
 @media (min-width: 800px) {
         .nav{
-        max-height: none;
+        max-height: 300px;
         top: 0;
+        right: 0;
         position: relative;
         float: right;
         width: fit-content;
-        background-color: var(--tan);
+        background-color: transparent;
+        border: none;
 
     }
 
@@ -201,9 +201,9 @@ ul{
     
     }
 .subnav-content a:hover {color: var(--dark);}
+
+#headerhome {margin-top: -220px;}
 }
-
-
 /*footer*/
 @media screen and (max-width: 580px){
   
@@ -218,7 +218,6 @@ ul{
     background-repeat: no-repeat;
     background-size: contain;
     border-radius: 5px;
-    margin-top: -650px;
 }
 #headerhome img {
     display: block;
@@ -246,7 +245,7 @@ color: var(--dark); font-size: 35px}
 color: var(--dark); font-size: 35px}
 #quotehome:hover {background-color: var(--tan)}
 
-.homemaintwo {background-color: #2B1809; border: solid, 3px; border-color: #2B1809 ; height: 140px; border-radius: 3px; margin-top: -5px;}
+.homemaintwo {background-color: #2B1809; border: solid, 3px; border-color: #2B1809 ; height: 140px; border-radius: 3px;margin-top: -5px;}
 .homemaintwocolumn {width: 47%; float: left; border: none; margin-top: 2%;}
 .homemaintwotext {
 display: flex;
@@ -272,14 +271,9 @@ display: flex;
 
 /*responsiveness homemaintwo*/  
 
-@media screen and (max-width: 1185px){
-.homemaintwo {height: 180px;}  
-.homemaintwocolumn {width: 96%; float: none; margin-top: 1%}
-.homemaintwocolumn1 {width:96%; float: none;}
 
-}
 /*aboutus*/
-.homemainthree {width: 100%; border: none; text-align: center;  display: inline-block;  height: auto; background-color: var(--tan)}
+.homemainthree {width: 100%; border: none; text-align: center;  display: inline-block;  height: auto; background-color: var(--tan);}
 
 
 
@@ -308,6 +302,11 @@ h6 {margin-top: 15px}
     #twodecades {margin-top: -525px }
     #quotehome {margin-top: -15px}
 
+}
+
+@media screen and (max-width: 1180px) {
+  .homemaintwo { width: 100%}
+  #headerhome {margin-top: ;}
 }
 @media screen and (max-width: 970px) {
   #twodecades {margin-top: -370px;
