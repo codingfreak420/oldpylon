@@ -34,7 +34,7 @@ ul{
 .header{
     background-color: var(--tan);
     box-shadow: 1px 1px 5px 0px black;
-    position: fixed;
+    position: sticky;
     top: 0;
     width: 100%;
     height: auto9
@@ -218,7 +218,7 @@ ul{
     background-repeat: no-repeat;
     background-size: contain;
     border-radius: 5px;
-    margin-top: 75px;
+    margin-top: -650px;
 }
 #headerhome img {
     display: block;
